@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <title>Web Forms</title>
+        <!---- CSS style tag used to style the web page---->
+        </style>
+    </head>
+    <body>
+        <h1> FaceBook Page</h1>
+        <form>
+            <label for="username">Login Id: </label>
+            <input type="text" id="username"placeholder="Enter the username " required> 
+            <br>
+            <br>
+            <label for="Password">Password: </label>
+            <input type="password" id="Password"placeholder="Enter the password "required>
+
+            <p>Gender:</p>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <br>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br>
+
+            <label for="security">Security Question</label>
+            <select name="security" id="security">
+                <option value="q1">Which is your favourite place for travelling</option>
+                <option value="q2">what is your nickname</option>
+                <option value="q3">which is your dream company</option>
+            </select>
+            <br>
+            <br>
+            <label for ="answer">write your name</label>
+            <input type="text" id="answer"required>
+
+            <br>
+            <br>
+            <label for="bio">Your bio</label>
+            <br>
+            <textarea name="bio" id="bio" cols="10"placeholder="About you......... "></textarea>
+            <br>
+            <input type="submit" value ="Sign Up">
+
+        </form>
+    </body>
+</html>
